@@ -73,3 +73,41 @@ PalabraRepeticion("Esto es javascript", 2);
 
 console.log("//////// ejercicio 6 /////////")
 
+function imprimirArray(array){
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i]);
+    }
+}
+
+ imprimirArray("1 2 3 4 5");
+
+
+ console.log("/////ejercicio 7//////");
+
+
+ const imprimirArrayMenosCinco = array => {
+    for (let i = 0; i < array.length; i++) {
+        if(i === 4) {
+            continue;
+        }
+        console.log(array[i]);
+    }
+ }
+
+ imprimirArrayMenosCinco([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+
+
+ console.log("////////ejercicio 8//////////");
+
+const multiplicarArray = (array, número) => {
+    for (let i = 0; i < array.length; i++) {
+        console.log(array[i] * número);
+    }
+
+}
+
+multiplicarArray([1, 2, 3, 4, 5], 2);
+
+
+ 
+
