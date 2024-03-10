@@ -1,6 +1,6 @@
 //ejercicio 1
 
-function ParImpar (número){
+ function ParImpar (número){
    
     if (número % 2 == 0) {
         console.log(número + "es un número par");
@@ -109,5 +109,23 @@ const multiplicarArray = (array, número) => {
 multiplicarArray([1, 2, 3, 4, 5], 2);
 
 
- 
+const pizzas = [
+    {
+      id: 1,
+      nombre: "pizza de Muzzarella",
+      precio: 500,
+      
+  
+     
+      
+    
+    },
+    
+    ingredientes = ["Muzzarella", "Tomate", "Aceitunas"],
 
+    
+    
+] 
+pizzas.forEach(pizzas => console.log( "pizza de muzzarella:"));
+ingredientes.forEach(ingredientes => {console.log(` ${ingredientes}`)})
+  
